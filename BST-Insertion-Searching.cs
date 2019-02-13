@@ -15,7 +15,7 @@ namespace BST_Operations
         // Insertion Operation in BST (Simple-Logic ... Not Recursively)
         public void InsertNode(int value)
         {
-            // Create node and assign to it ...
+            // Create node and assign data to it ...
             temp = new Node();
             temp.data = value;
             temp.left = temp.right = null;
